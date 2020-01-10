@@ -20,7 +20,7 @@ To create custom objects,
 
 3.  To create a form view for the object and define the data fields present in the object, leave the _Continue and Create Form View_ setting checked and click _Continue_.
 
-    ![Figure x: Creating a Custom Object is the first step to writing an App Builder application.](./app-builder/images/app-builder-custom-object.png)
+    ![Figure x: Creating a Custom Object is the first step to writing an App Builder application.](./images/app-builder-custom-object.png)
 
 Define the data present in your Custom Object by creating a Form View.
 
@@ -34,7 +34,7 @@ Once you're ready to define the data handled by your Custom Object, write as man
 
     The Form Builder is displayed.
 
-    ![Figure x: Use the form builder embedded inside the App Builder to create form views.](./app-builder/images/app-builder-form-builder.png)
+    ![Figure x: Use the form builder embedded inside the App Builder to create form views.](./images/app-builder-form-builder.png)
 
 Read [the article on the form builder](placeholder) to learn about all its features.
 
@@ -52,7 +52,7 @@ To create a table view,
 
     The Table Builder is displayed.
 
-    ![Figure x: Use the table builder embedded inside the App Builder to create table views.](./app-builder/images/app-builder-table-builder.png)
+    ![Figure x: Use the table builder embedded inside the App Builder to create table views.](./images/app-builder-table-builder.png)
 
 Read [the article on the table builder](placeholder) to learn about all its features.
 
