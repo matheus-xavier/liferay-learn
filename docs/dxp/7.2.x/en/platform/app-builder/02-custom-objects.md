@@ -16,9 +16,9 @@ To create custom objects,
 
 1.  Navigate to Control Panel &rarr; App Builder &rarr; Custom Objects, and click the add button.
 
-2.  Enter a name for the object.
+1.  Enter a name for the object.
 
-3.  To create a form view for the object and define the data fields present in the object, leave the _Continue and Create Form View_ setting checked and click _Continue_.
+1.  To create a form view for the object and define the data fields present in the object, leave the _Continue and Create Form View_ setting checked and click _Continue_.
 
     ![Figure x: Creating a Custom Object is the first step to writing an App Builder application.](./images/app-builder-custom-object.png)
 
@@ -30,11 +30,12 @@ Once you're ready to define the data handled by your Custom Object, write as man
 
 1.  Open the Custom Object (Control Panel &rarr; App Builder &rarr; Custom Objects).
 
-2.  From the _Form Views_ tab, click the Add button.
+1.  From the _Form Views_ tab, click the Add button.
 
     The Form Builder is displayed.
 
     ![Figure x: Use the form builder embedded inside the App Builder to create form views.](./images/app-builder-form-builder.png)
+
 
 Read [the article on the form builder](placeholder) to learn about all its features.
 
@@ -48,7 +49,7 @@ To create a table view,
 
 1.  Open the Custom Object (Control Panel &rarr; App Builder &rarr; Custom Objects).
 
-2.  From the _Table Views_ tab, click the Add button.
+1.  From the _Table Views_ tab, click the Add button.
 
     The Table Builder is displayed.
 
@@ -58,17 +59,12 @@ Read [the article on the table builder](placeholder) to learn about all its feat
 
 ## Deploying the Application
 
-A custom object can have multiple applications. To create an application, select a single form view, a single table view, and configure the deployment options for the app. The deployment can be of three main types, and multiple deployment options can be used for a single app:
+A custom object can have multiple applications. To create an application, select a single form view, a single table view, and configure the deployment options for the app. The deployment can be of three main types (described more fully in the introductory article):
 
-**Widget**
-: Deploy the app to the widget menu, and add it to a page using the Add Widgets menu, from Add &rarr; Widgets &rarr; App Builder. When you deploy the app as a widget, you'll really be deploying three versions of the app:
+1.  **Widget**
 
-1.  displays the table view by default but includes the Add button to access the form view
-2.  only shows the table view
-3.  only shows the form view
+1.  **Standalone**
 
-**Standalone**
-: Deploy the app to a dedicated page that's not part of a site and not visible to any navigation menu. This limits access to only people with the link.
+1.  **Product Menu**
 
-**Product Menu**
-: Deploy the app to the Control Panel, the Site Menu, or both. This gives you flexibility in deciding where your app's administrative Users will access the app.
+Once your deployment options are defined, click Deploy. The app is live!
