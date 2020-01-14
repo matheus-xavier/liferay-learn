@@ -10,13 +10,15 @@ Writing applications for Liferay DXP has never been easier. Introduced with Life
 
 - [Deployment](#deployment)
 
-These concepts are explained below. To skip straight to building an application, see the next article on [Creating Application with App Builder](./02-custom-objects.md), and dig into the details in the rest of this section.
+These concepts are explained below. To skip straight to building an application, see the next article on [Creating Applications with App Builder](./creating-applications-with-app-builder.md).
 
 ## Custom Objects
 
 Custom objects are the foundation of your App Builder applications. The custom object is like the model in a [Service Builder application](placeholder). The custom object defines what data fields can be contained in the application. For example, a Guestbook object would contain a _Name_ field and a _Message_ field, at least. To create applications based on a custom object, you have three tasks: create at least one form view, create at least one table view, and deploy the application.
 
 The data for a custom object is defined at the same time as creating its form views.
+
+> In future versions of the App Builder, out-of-the-box objects with default fieldsets will be bundled with Liferay DXP to jump-start your app development. 
 
 ## Form Views
 
